@@ -18,14 +18,14 @@ minimal_mistakes_skin    : "default" # 테마 색 설정"air", "aqua", "contrast
 locale                   : "ko-KR"
 title                    : "종로우체국" #Meta태그에 들어가는 영역
 title_separator          : "-" # 타이틀 사이 구분자
-subtitle                 : "1.8vs"# 타이틀 아래에 나올 작은 글씨
-name                     : "이한영" # 맨 하단 이름 찍히는 영역
+subtitle                 : "1.8v"# 타이틀 아래에 나올 작은 글씨
+name                     : "Hanahana" # 맨 하단 이름 찍히는 영역
 description              : "An amazing website." # Meta태그에 들어가는 영역
 url                      : "https://Hanahana0.github.io" #GitBlog 호스트 주소
 baseurl                  : # the subpath of your site, e.g. "/blog" # 위 호스트 주소 뒤에 붙을 내용 ex)"/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes" #GitHub username/repo-name
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png" #홈페이지 기본 티저 이미지
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png" #타이틒옆에 작게 들어갈 이미지
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png" #타이틀옆에 작게 들어갈 이미지
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title # 홈페이지 최 상단에 들어갈 타이틀
 # breadcrumbs            : true # true, false (default) #브래드크럼 사용여부 다국어지원
 words_per_minute         : 200
@@ -101,15 +101,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "이한영"
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "**제육**복근"
+  location         : "South Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:11akfaos11@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -215,9 +215,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5 #  첫 페이지에보여줄 최근 게시물 수를 지정
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -283,7 +283,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
+      read_time: flase
+      comments: flase
       share: true
-      related: true
+      related: flase
