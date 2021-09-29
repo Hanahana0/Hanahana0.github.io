@@ -102,8 +102,8 @@ analytics:
 # Site Author
 author:
   name             : "이한영"
-  avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "**제육**복근"
+  avatar           : #"/assets/images/bio-photo.jpg"
+  bio              : "**살려줘**"
   location         : "South Korea"
   email            :
   links:
