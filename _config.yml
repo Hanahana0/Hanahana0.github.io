@@ -283,7 +283,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: flase
-      comments: flase
+      read_time: true
+      comments: true
       share: true
-      related: flase
+      related: true
