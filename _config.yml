@@ -16,27 +16,30 @@ minimal_mistakes_skin    : "default" # 테마 색 설정"air", "aqua", "contrast
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Hanahana" #Meta태그에 들어가는 영역
-title_separator          : "-" # 타이틀 사이 구분자
+title                    : "#210" #Meta태그에 들어가는 영역
+title_separator          : "&#124;" # 타이틀 사이 구분자
 subtitle                 : ""# 타이틀 아래에 나올 작은 글씨
-name                     : "Hanahana" # 맨 하단 이름 찍히는 영역
-description              : "An amazing website." # Meta태그에 들어가는 영역
+name                     : "210" # 맨 하단 이름 찍히는 영역
+description              : "개발을해보자" # Meta태그에 들어가는 영역
 url                      : "https://Hanahana0.github.io" #GitBlog 호스트 주소
 baseurl                  : # the subpath of your site, e.g. "/blog" # 위 호스트 주소 뒤에 붙을 내용 ex)"/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes" #GitHub username/repo-name
 teaser                   : "/assets/images/pg.jpg"# path of fallback teaser image, e.g. "/assets/images/500x300.png" #홈페이지 기본 티저 이미지
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png" #타이틀옆에 작게 들어갈 이미지
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title # 홈페이지 최 상단에 들어갈 타이틀
+masthead_title           : "하루메모"# overrides the website title displayed in the masthead, use " " for no title # 홈페이지 최 상단에 들어갈 타이틀
 # breadcrumbs            : true # true, false (default) #브래드크럼 사용여부 다국어지원
 words_per_minute         : 200
+
+#댓글관련부분
 comments:
   provider               : disqus # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : Hanahana# https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
+    
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
@@ -59,8 +62,8 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : true # true, false (default)
+search_full_content      : true# true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -102,8 +105,8 @@ analytics:
 # Site Author
 author:
   name             : "이한영"
-  avatar           : #"/assets/images/bio-photo.jpg"
-  bio              : "**살려줘**"
+  avatar           : "/assets/images/bio-photo.jpg" #프로필 이미지
+  bio              : "😆😀😀"
   location         : "South Korea"
   email            :
   links:
@@ -274,7 +277,7 @@ compress_html:
     envs: development
 
 
-# Defaults
+# Defaults post들에 적용될 기본 설정들
 defaults:
   # _posts
   - scope:
