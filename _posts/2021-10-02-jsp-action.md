@@ -3,9 +3,9 @@ title:  "jsp액션요소"
 excerpt: "useBean,setProperty액션태그 사용법과 활용하기"
 
 categories:
-  - Blog
+  - jsp
 tags:
-  - [Blog,jsp]
+  - [jsp]
 
 toc: true
 toc_sticky: true
