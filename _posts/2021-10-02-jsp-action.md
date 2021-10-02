@@ -316,7 +316,7 @@ public class TestVO {
 
 <br/>
 
-<img src="/assets/2021-10-01_img/b_image_1.png" width="75%" height="75%">
+<img src="/assets/2021-10-01_img/b_image_1.PNG" width="75%" height="75%">
 
 <br/>
 
