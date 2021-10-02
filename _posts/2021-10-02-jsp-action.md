@@ -316,7 +316,7 @@ public class TestVO {
 
 <br/>
 
-<img src="/assets/2021-10-01_img/b_image_1.PNG" width="75%" height="75%">
+<img src="/assets/2021-10-01_img/b_image_3.PNG" width="75%" height="75%" title="10-01-img1" alt="10-01-img1">
 
 <br/>
 
@@ -382,13 +382,13 @@ public class TestVO {
 
 <br/>
 
-<img src="assets\2021-10-01\b_image_2.PNG" style="zoom:75%;" />
+<img src="/assets/2021-10-01_img/b_image_2.PNG" width="75%" height="75%" title="10-01-img2" alt="10-01-img2">
 
 여기서 보내기를 누르면!
 
 <br/>
 
-<img src="assets\2021-10-01\b_image_3.PNG" style="zoom:75%;" />
+<img src="/assets/2021-10-01_img/b_image_3.PNG" width="75%" height="75%" title="10-01-img3" alt="10-01-img3">
 
 <br/>
 
