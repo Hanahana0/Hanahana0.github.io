@@ -41,7 +41,8 @@ body {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
     padding-right: $right-sidebar-width-narrow;
-    order: 1px solid rgb(71, 71, 136) !important;
+    border: 1px solid rgb(71, 71, 136) !important;
+    background-color:antiquewhite;
   }
 
   @include breakpoint($x-large) {
