@@ -41,7 +41,7 @@ body {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
     padding-right: $right-sidebar-width-narrow;
-    order: 1px solid rgb(71, 71, 136);
+    order: 1px solid rgb(71, 71, 136) !important;
   }
 
   @include breakpoint($x-large) {
@@ -56,7 +56,7 @@ body {
     margin-right: 0;
     width: 100%;
     clear: both;
-    border: 1px solid blue;
+    border: 1px solid blue !important;
 
     .page__content,
     .page__meta,
@@ -67,7 +67,7 @@ body {
       margin-right: 0;
       width: 100%;
       clear: both;
-      border: 1px solid red;
+      border: 1px solid red !important;
     }
   }
 }
