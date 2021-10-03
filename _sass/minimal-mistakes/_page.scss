@@ -21,7 +21,6 @@
 }
 
 body {
-
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -73,12 +72,10 @@ body {
 .page__title {
   margin-top: 0;
   line-height: 1;
-  font-size: 17px;
 
   a {
     color: $text-color;
     text-decoration: none;
-    font-size: 15px;
   }
 
   & + .page__meta {
