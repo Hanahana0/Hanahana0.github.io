@@ -13,6 +13,8 @@
   max-width: 100%;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
+  text-align: center;
+  font-size: 12px;
 
   @include breakpoint($x-large) {
     max-width: $max-width;
@@ -89,7 +91,6 @@ body {
 
 .page__content {
   h2 {
-    text-align: center;
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
   }
