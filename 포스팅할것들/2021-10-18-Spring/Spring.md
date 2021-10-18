@@ -3,10 +3,10 @@ title:  "Spring"
 excerpt: "Spring들어가기전 겉핥기"
 
 categories:
-  - blog
-  -	spring
+  - blog,spring
+
     tags:
-  - [blog, spring]
+  - [blog,spring]
 
 toc: true
 toc_sticky: true
