@@ -35,7 +35,7 @@ last_modified_at: 2021-10-18
 
 <br/>
 
-![image-20211018181043467](C:\Users\class02\AppData\Roaming\Typora\typora-user-images\image-20211018181043467.png)
+<img src="/assets/2021-10-18_img/img1.PNG" width="75%" height="75%" title="10-18img1.PNG" alt="10-18img1.PNG">
 
 <br/>
 
@@ -419,7 +419,7 @@ last_modified_at: 2021-10-18
 
        <br/>
 
-       ![image-20211018192335078](C:\Users\class02\AppData\Roaming\Typora\typora-user-images\image-20211018192335078.png)
+       <img src="/assets/2021-10-18_img/img2.PNG" width="75%" height="75%" title="10-18img2.PNG" alt="10-18img2.PNG">
 
     
 
